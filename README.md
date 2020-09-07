@@ -53,3 +53,6 @@ kullanıcıya gösterilip sms atılması ve dbye kaydedilmesi üzerine yapılmı
     ```javascript
       npm start
       ```
+      
+## Proje Mimarisi
+
