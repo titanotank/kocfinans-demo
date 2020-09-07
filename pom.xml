@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+	<modules>
+		<module>credit</module>
+		<module>sms_service</module>
+		<module>eurokaserver</module>
+        <module>creditscoreservice</module>
+    </modules>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.3.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.tuncaysahin</groupId>
+	<artifactId>kocfinans-demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>kocfinans-demo</name>
+	<description>Kocfinans mülakati icin demo</description>
+
+	<properties>
+		<java.version>11</java.version>
+		<spring-boot-starter-data-jpa.version>2.3.3.RELEASE</spring-boot-starter-data-jpa.version>
+		<spring-boot-starter-web.version>2.3.3.RELEASE</spring-boot-starter-web.version>
+		<spring-boot-starter-test.version>2.3.3.RELEASE</spring-boot-starter-test.version>
+		<hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
+		<mysql-connector-java.version>8.0.21</mysql-connector-java.version>
+		<lombok.version>1.18.12</lombok.version>
+		<modelmapper.version>2.3.2</modelmapper.version>
+		<eureka-server.version>2.0.1.RELEASE</eureka-server.version>
+		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
+		<jaxb-api.version>2.3.0-b170201.1204</jaxb-api.version>
+		<javax.activation.version>1.1</javax.activation.version>
+		<jaxb-runtime.version>2.3.0-b170127.1453</jaxb-runtime.version>
+		<kafka.version>2.5.0</kafka.version>
+		<jackson-databind.version>2.5.3</jackson-databind.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

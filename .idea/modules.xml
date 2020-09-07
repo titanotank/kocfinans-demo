@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/credit/credit.iml" filepath="$PROJECT_DIR$/credit/credit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creditscoreservice/creditscoreservice.iml" filepath="$PROJECT_DIR$/creditscoreservice/creditscoreservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurokaserver/eurokaserver.iml" filepath="$PROJECT_DIR$/eurokaserver/eurokaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kocfinans-demo.iml" filepath="$PROJECT_DIR$/kocfinans-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms_service/sms_service.iml" filepath="$PROJECT_DIR$/sms_service/sms_service.iml" />
+    </modules>
+  </component>
+</project>

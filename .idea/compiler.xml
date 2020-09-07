@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="creditscoreservice" />
+        <module name="credit" />
+        <module name="eurokaserver" />
+        <module name="sms_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="credit" target="11" />
+      <module name="creditscoreservice" target="11" />
+      <module name="creditscorservice" target="11" />
+      <module name="creditscorservice2" target="11" />
+      <module name="domain" target="11" />
+      <module name="eurokaserver" target="11" />
+      <module name="kocfinans-demo" target="11" />
+      <module name="sms_service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="credit" options="-parameters" />
+      <module name="creditscoreservice" options="-parameters" />
+      <module name="creditscorservice" options="-parameters" />
+      <module name="creditscorservice2" options="-parameters" />
+      <module name="domain" options="-parameters" />
+      <module name="eurokaserver" options="-parameters" />
+      <module name="kocfinans-demo" options="-parameters" />
+      <module name="sms_service" options="-parameters" />
+    </option>
+  </component>
+</project>
