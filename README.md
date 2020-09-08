@@ -59,9 +59,9 @@ kullanıcıya gösterilip sms atılması ve dbye kaydedilmesi üzerine yapılmı
 git clone https://github.com/titanotank/kocfinans-demo.git
 ```
 
-Daha sonra IDE kullanılarak proje açılır, proje açılınca pom.xml'e göre proje bağımlılıkları indirecektir.
-Daha sonra mysql bilgileri credit modülündeki appplication.propertiesda ayarlanır.
-Proje jdk 11 kullanıyor. ideden proje compilerını değiştirebilirsiniz eğer uyumlu değilse.
+* Daha sonra IDE kullanılarak proje açılır, proje açılınca pom.xml'e göre proje bağımlılıkları indirecektir.
+* Daha sonra mysql bilgileri credit modülündeki appplication.propertiesda ayarlanır.
+* Proje jdk 11 kullanıyor. ideden proje compilerını değiştirebilirsiniz eğer uyumlu değilse.
 
 Kafka zookeper ve MongoDB yi indirip çalıştırmanız yeterlidir bir ayarlama yapmaya gerek yoktur.
 
