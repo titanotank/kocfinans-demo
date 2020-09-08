@@ -55,4 +55,13 @@ kullanıcıya gösterilip sms atılması ve dbye kaydedilmesi üzerine yapılmı
       ```
       
 ## Proje Mimarisi
+![FullStack-KocFinans](https://user-images.githubusercontent.com/26394549/92422955-eb5f6d00-f187-11ea-9b3e-ef4a51960d16.png)
 
+##Proje Önyüzü
+Uyarı proje önyüzünü  calıstırmak icin kocfinans-ui projesinin indirip calıstırmalısız. Fullstack projenin bir parcası olduğu icin ekran görüntüsünü buraya koyuyorum
+
+## Form Ekranı
+![KrediBasvuruEkranı](https://user-images.githubusercontent.com/26394549/92422945-e995a980-f187-11ea-9962-50cbcbabaa2e.png)
+
+## Sonuc Ekranı
+![KrediOnayEkranı](https://user-images.githubusercontent.com/26394549/92422951-eac6d680-f187-11ea-9292-68671ba5a912.png)
