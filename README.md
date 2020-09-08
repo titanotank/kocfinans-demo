@@ -41,6 +41,7 @@ kullanıcıya gösterilip sms atılması ve dbye kaydedilmesi üzerine yapılmı
 ## Kurulum İçin Gerekli Detaylar
   * MYSQL SERVER KURULU OLMALI -> Credit modulu MYSQL SERVER kullanıyor 
      * fullstack_kf veritabanı yaratılmalı
+     * mysql bilgileri application propertiesten gilirmelidir username password localhost gibi
   * Kafka ve Zookeeper kurulu olmalı ve projeden önce ayağa kaldırılması lazım
   * MONGO DB Server çalışıyor olması lazım
   * Önce EurekaServer modülü çalıştırılmalı daha sonra diğer modüller ayağa kalkmalı
@@ -53,7 +54,23 @@ kullanıcıya gösterilip sms atılması ve dbye kaydedilmesi üzerine yapılmı
     ```javascript
       npm start
       ```
-      
+## Kurulum
+```
+git clone https://github.com/titanotank/kocfinans-demo.git
+```
+
+Daha sonra IDE kullanılarak proje açılır, proje açılınca pom.xml'e göre proje bağımlılıkları indirecektir.
+Daha sonra mysql bilgileri credit modülündeki appplication.propertiesda ayarlanır.
+Proje jdk 11 kullanıyor. ideden proje compilerını değiştirebilirsiniz eğer uyumlu değilse.
+
+Kafka zookeper ve MongoDB yi indirip çalıştırmanız yeterlidir bir ayarlama yapmaya gerek yoktur.
+
+## Proje Çalıstırılması
+1. EurekaServer modulündeki EurekaServer applicationi ilk olarak çalıştırılır. localhost:9999 dan görüntülenebilir.
+2. Diğer modüllerdeki projelerin hepsi çalıştırılır.
+3. localhost:8081 8082 8083 ten swagger dökümanlarından bakılabilir.
+
+
 ## Proje Mimarisi
 ![FullStack-KocFinans](https://user-images.githubusercontent.com/26394549/92422955-eb5f6d00-f187-11ea-9b3e-ef4a51960d16.png)
 
