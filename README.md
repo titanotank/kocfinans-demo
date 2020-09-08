@@ -44,6 +44,7 @@ kullanıcıya gösterilip sms atılması ve dbye kaydedilmesi üzerine yapılmı
      * mysql bilgileri application propertiesten gilirmelidir username password localhost gibi
   * Kafka ve Zookeeper kurulu olmalı ve projeden önce ayağa kaldırılması lazım
   * MONGO DB Server çalışıyor olması lazım
+  ** MYSQL- KAFKA- MONGODB Docker COMPOSE FİLE İLE KURULUMU anlatılmıstır
   * Önce EurekaServer modülü çalıştırılmalı daha sonra diğer modüller ayağa kalkmalı
   * Bütün modüller çalıştığında localhost:8081 den projenin çalışır olduğu görülebilir
   * swagger dökümantasyonuyla 8081 8082 8083 portlarından apilerle işlemler yapabilirsiniz.
@@ -65,6 +66,16 @@ git clone https://github.com/titanotank/kocfinans-demo.git
 
 Kafka zookeper ve MongoDB yi indirip çalıştırmanız yeterlidir bir ayarlama yapmaya gerek yoktur.
 
+## MYSQL- KAFKA- MONGODB Docker COMPOSE FİLE İLE KURULUMU
+* terminalde kocfinans-demo projesinin icerisine girilir ve dir (ls) komutuyla dosyalar görüntülenir. docker-compose.ylm file listener görülür
+```
+sudo docker-compose -f docker-compose.yml up -d
+```
+* Kurulumlar yapıldan sonra docker ps ile bütün programların ayakta olduğu görülür
+```
+sudo docker ps
+```
+* Kurulumlar tamamlanmıştır daha sonr Proje Çalıştırılması kısmına geçilir.
 ## Proje Çalıstırılması
 1. EurekaServer modulündeki EurekaServer applicationi ilk olarak çalıştırılır. localhost:9999 dan görüntülenebilir.
 2. Diğer modüllerdeki projelerin hepsi çalıştırılır.
